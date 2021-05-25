@@ -35,7 +35,9 @@ export default function Home() {
               </Link>
             </div>
             <div className='column'>
-              <img className='ig' src='/images/ig.png'/>
+              <Link href='https://www.instagram.com/anant_701/'>
+                <img className='ig' src='/images/ig.png'/>
+              </Link>
             </div>
           </div>
         <style jsx>{`
