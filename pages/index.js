@@ -15,7 +15,7 @@ export default function Home() {
           you will find links to my social media pages where you can connect with me and we
           can work on some fun stuff together!
         </p>
-        <p> Probably working on something related to <Typing/> </p>
+        <p className={utilStyles.p}> Things I enjoy doing -  <Typing/> </p>
       </section>
       <section className={utilStyles.contacts}>
           <div className='row'>
@@ -44,7 +44,7 @@ export default function Home() {
           /* Three image containers (use 25% for four, and 50% for two, etc) */
           .column {
             float: left;
-            width: 23%;
+            width: 21%;
             padding: 5px;
           }
           
@@ -56,20 +56,16 @@ export default function Home() {
           }
           .linkedin{
               width:50%;
-              padding-left: 10px;
               height:auto;
           }
           .gmail {
-            padding-left: 10px;
             width: 67%;
           }
           .github {
-            padding-left: 10px;
             width: 50%;
           }
 
           .ig {
-            padding-left: 10px;
             width: 50%;
           }
           .event-title{
