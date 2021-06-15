@@ -13,9 +13,12 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p className={utilStyles.p}>I am currently in my third year of <b>Computer Science</b> at McMaster University. Below, 
           you will find links to my social media pages where you can connect with me and we
-          can work on some fun stuff together!
+          can work on some fun stuff together! If you want more information please visit my personal website which can be found here:
+          <br/>
         </p>
-        <p className={utilStyles.p}> Things I enjoy doing -  <Typing/> </p>
+        <button type="button" className={utilStyles.button}> <a href='https://anantprakash17.github.io' className={utilStyles.link}> Click Me! </a> </button>
+        <br/>
+        <br/>
       </section>
       <section className={utilStyles.contacts}>
           <div className='row'>
@@ -41,7 +44,6 @@ export default function Home() {
             </div>
           </div>
         <style jsx>{`
-          /* Three image containers (use 25% for four, and 50% for two, etc) */
           .column {
             float: left;
             width: 21%;

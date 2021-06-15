@@ -29,7 +29,10 @@
   }
   
   .borderCircle {
-    border-radius: 9999px;
+    border-radius: 100px;
+    display: inline-block;
+    width: 144px;
+    height: 144px;
   }
   
   .colorInherit {
@@ -66,4 +69,38 @@
   }
   .p {
     font-size: 14px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .button {
+    background-color: rgb(145, 225, 42);
+    border: black;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  .circle {
+    height: 144px;
+    width: 144px;
+    background-color: rgb(145, 225, 42);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 0;
+    position: relative;
+  }
+
+  .form {
+    height: 144px;
+    width: 144px;
+  }
+
+  .input {
+    height: 144px;
+    width: 144px;
+    background-color:rgb(145, 225, 42);
+    border-radius: 50px;
   }
