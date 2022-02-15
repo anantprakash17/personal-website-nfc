@@ -5,7 +5,6 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import TypingName from '../components/typed-intro'
 
-const heading = "Hi. I'm Anant."
 
 export default function Layout({ children, home }) {
   return (
@@ -28,9 +27,9 @@ export default function Layout({ children, home }) {
               height={144}
               width={144}
               layout='intrinsic'
-              alt={heading}
+              alt={"free cash."}
             />
-            <h1 className={utilStyles.heading2Xl}><TypingName/></h1>
+            <h1 className={utilStyles.headingXl}><TypingName/></h1>
           </>
         ) : (
           <>
