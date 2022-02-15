@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
       </Head>
       <style jsx global>{`
       body {
-        background-color: black;
+        background-color: white;
       }
     `}</style>
       <header className={styles.header}>

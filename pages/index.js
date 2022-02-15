@@ -8,41 +8,39 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>Anant Prakash</title>
+        <title>Free Cash</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p className={utilStyles.p}>I am currently in my third year of <b>Computer Science</b> at McMaster University. Below, 
-          you will find links to my social media pages where you can connect with me and we
-          can work on some fun stuff together! If you want more information please visit my personal website which can be found here:
-          <br/>
+        <p className={utilStyles.p}>
+          You're probably thinking, "no way this is real right?". Well you're wrong. What is it? If you've seen people get free food around
+          campus, you've probably heard of <b className={utilStyles.button}>Wealthsimple Cash</b>. If not, here's a quick breakdown. 
         </p>
-        <button type="button" className={utilStyles.button}> <a href='https://anantprakash17.github.io' className={utilStyles.link}> Click Me! </a> </button>
+        <p className={utilStyles.p}>
+          Its a service made by Wealthsimple which is essentially trying to replace e-transfer. If it succeeds or not, who knows. But here's 
+          the fun part. In an atempt to get more people to use it they're handing out a free $25 sign up bonus. They also have weekly free
+          food that they give out.
+          <b className={utilStyles.button}> YOU CAN MOVE THE MONEY TO YOUR BANK</b>. Now full disclosure, I also get a $25 for every time
+          you use the code, but hey, free money is free money.
+        </p>
+
+        <p className={utilStyles.p}> 
+          How do you get your money? Simple. Click the button below and make an account. Make sure to select your occupation as Student so
+          you can get free food around campus. In case it doesn't give you my code there, here it is: 58XBN1. Enjoy your free money :)
+        </p>
+        <button type="button" className={utilStyles.button}> <a href='http://ws.cash/invite/$anant_701' target='_blank' className={utilStyles.link}> To the free money! </a> </button>
         <br/>
         <br/>
+        <p className={utilStyles.p}> 
+          Also, if you have any questions, feel free to DM lol.
+        </p>
       </section>
       <section className={utilStyles.contacts}>
-          <div className='row'>
             <div className='column'>
-            <Link href='mailto:anantprakash92@gmail.com'>
-              <img className='gmail' src='/images/gmail.png'/>
-            </Link>
+              <button type="button" className={utilStyles.button}> <a href='https://www.instagram.com/anant_701/' target='_blank' className={utilStyles.link}> anant_701 </a> </button>
             </div>
-            <div className='column'>
-              <Link href='https://www.linkedin.com/in/anantprakash17/'>
-                <img className='linkedin' src='/images/linkedin.png'/>
-              </Link>
-            </div>
-            <div className='column'>
-              <Link href='https://github.com/anantprakash17'>
-                <img className='github' src='/images/github.png'/>
-              </Link>
-            </div>
-            <div className='column'>
-              <Link href='https://www.instagram.com/anant_701/'>
-                <img className='ig' src='/images/ig.png'/>
-              </Link>
-            </div>
-          </div>
+        <br/>
+        <br/>
+        <br/>
         <style jsx>{`
           .column {
             float: left;

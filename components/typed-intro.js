@@ -4,10 +4,10 @@ import Typed from 'typed.js'
 class TypingName extends React.Component {
   componentDidMount() {
     const options = {
-      strings: ["Hi! I'm Anant."],
+      strings: ["Get your free $25 here!"],
       typeSpeed: 70,
       loop: false,
-      showCursor: false,
+      showCursor: true,
     };
     this.typed = new Typed(this.el, options);
   }
